@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{4baccd7e-c62e-4306-9942-8066c74ded49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{f5094767-3195-4659-b95c-2cf8ea540c38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\net">
+      <UniqueIdentifier>{40d048e8-8f3c-42de-89d5-1dcd5d13ef32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sys">
+      <UniqueIdentifier>{e363a0bd-d684-4d94-8b9d-f19341e31588}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\net\async">
+      <UniqueIdentifier>{69c7bbfd-799e-4cbf-969b-f1e28abe54e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\net\internal">
+      <UniqueIdentifier>{1a97fb83-75a8-4c5b-900a-efb61f39c12d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\net\ssl">
+      <UniqueIdentifier>{ee6e33af-b14e-4789-a528-7d45d4e77b9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\net\sync">
+      <UniqueIdentifier>{23f23e96-e135-4f8e-9a45-3052c6a631ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\net\async\udp">
+      <UniqueIdentifier>{9026a5f6-5bfc-46aa-97d2-b6df22195d2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\net\async\tcp">
+      <UniqueIdentifier>{a0e0158c-165a-42e2-a24c-c2770bae2891}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\net\sync\tcp">
+      <UniqueIdentifier>{29e3861a-5d0b-417a-bc3d-a6fb738efd26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\net\sync\udp">
+      <UniqueIdentifier>{59ba10ac-ce93-487d-a72d-67171b44d93b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\net\ssl\sync">
+      <UniqueIdentifier>{4b9d57e4-7727-4e75-9e3c-a7a6c6617eb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\net\ssl\sync\tcp">
+      <UniqueIdentifier>{0df1e35c-a305-48bc-9730-3f617ee53949}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\net">
+      <UniqueIdentifier>{be6e4f05-564c-44a4-9da2-b18e846b0f70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\net\internal">
+      <UniqueIdentifier>{77eb4817-97fc-4c16-8f8a-93f1525d6924}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\net\internal\socket">
+      <UniqueIdentifier>{6926ca67-4122-4967-aff1-3e035d974766}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\net\internal\socket\address">
+      <UniqueIdentifier>{3e3d950e-3f1c-4b09-a204-d1eb5e56ea01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\net\internal\ssl">
+      <UniqueIdentifier>{199506be-bab3-4ac6-862f-5ab36c2f4d83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\net\internal\socket">
+      <UniqueIdentifier>{3d02dd9a-bad7-4544-98a4-e3c09f8c07fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\net\internal\socket\address">
+      <UniqueIdentifier>{4621e27e-fb50-4e81-986b-cc47ff16acba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\net\internal\ssl">
+      <UniqueIdentifier>{4b685242-f28b-452c-94af-0ac72b197233}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\net\library.h">
+      <Filter>Header Files\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\net\socket.h">
+      <Filter>Header Files\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\net\async\tcp\socket.h">
+      <Filter>Header Files\net\async\tcp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\net\async\udp\socket.h">
+      <Filter>Header Files\net\async\udp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\net\internal\socket\address\address.h">
+      <Filter>Header Files\net\internal\socket\address</Filter>
+    </ClInclude>
+    <ClInclude Include="..\net\internal\socket\socket.h">
+      <Filter>Header Files\net\internal\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\net\async\socket.h">
+      <Filter>Header Files\net\async</Filter>
+    </ClInclude>
+    <ClInclude Include="..\net\sync\socket.h">
+      <Filter>Header Files\net\sync</Filter>
+    </ClInclude>
+    <ClInclude Include="..\net\sync\udp\socket.h">
+      <Filter>Header Files\net\sync\udp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\net\sync\tcp\socket.h">
+      <Filter>Header Files\net\sync\tcp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\net\ssl\library.h">
+      <Filter>Header Files\net\ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\net\ssl\socket.h">
+      <Filter>Header Files\net\ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\net\ssl\version.h">
+      <Filter>Header Files\net\ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\net\ssl\sync\tcp\socket.h">
+      <Filter>Header Files\net\ssl\sync\tcp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\net\internal\ssl\openssl.h">
+      <Filter>Header Files\net\internal\ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\net\internal\ssl\version.h">
+      <Filter>Header Files\net\internal\ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sys\types.h">
+      <Filter>Header Files\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sys\uio.h">
+      <Filter>Header Files\sys</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\net\internal\socket\address\address.cpp">
+      <Filter>Source Files\net\internal\socket\address</Filter>
+    </ClCompile>
+    <ClCompile Include="..\net\internal\socket\socket.cpp">
+      <Filter>Source Files\net\internal\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\net\socket.cpp">
+      <Filter>Source Files\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test_ssl_sync_tcp_socket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\net\internal\ssl\openssl.cpp">
+      <Filter>Source Files\net\internal\ssl</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
